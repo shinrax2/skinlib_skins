@@ -1,0 +1,20 @@
+<materials version="3">
+    <material name="mat_body" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/upd_georg/weapons/wpn_fps_pis_georg/parts/textures/body_uwuger_df"/>
+        <material_texture		file="units/upd_georg/weapons/wpn_fps_pis_georg/parts/textures/body_uwuger_gsm"/>
+        <bump_normal_texture	file="units/upd_georg/weapons/wpn_fps_pis_georg/parts/textures/body_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_body_addons" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/upd_georg/weapons/wpn_fps_pis_georg/parts/textures/body_addons_uwuger_df"/>
+        <material_texture		file="units/upd_georg/weapons/wpn_fps_pis_georg/parts/textures/body_addons_uwuger_gsm"/>
+        <bump_normal_texture	file="units/upd_georg/weapons/wpn_fps_pis_georg/parts/textures/body_addons_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="mtr_mag" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture		file="units/vanilla/weapons/wpn_fps_pis_c96_pts/textures/wpn_fps_pis_c96_m_medium_df"/>
+		<material_texture		file="units/vanilla/weapons/wpn_fps_pis_c96_pts/textures/wpn_fps_pis_c96_m_medium_gsm"/>
+		<bump_normal_texture	file="units/vanilla/weapons/wpn_fps_pis_c96_pts/textures/wpn_fps_pis_c96_m_medium_nm"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+</materials>

@@ -1,0 +1,30 @@
+<dynamic_object>
+    <diesel materials="units/upd_georg/weapons/wpn_fps_pis_georg/parts/georg_parts_uwuger_fps" orientation_object="rp_slide" />
+	<animations>
+        <animation_group name="recoil">
+            <object name="anim_slide_0" enabled="true" />
+            <object name="anim_slide_1" enabled="true" />
+            <object name="anim_slide_2" enabled="true" />
+            <object name="anim_slide_3" enabled="true" />
+        </animation_group>
+        <animation_group name="last_recoil">
+            <object name="anim_slide_0_last" enabled="true" />
+            <object name="anim_slide_1_last" enabled="true" />
+            <object name="anim_slide_2_last" enabled="true" />
+            <object name="anim_slide_3_last" enabled="true" />
+        </animation_group>
+        <animation_group name="reload">
+            <object name="anim_slide_0_reload" enabled="true" />
+            <object name="anim_slide_1_reload" enabled="true" />
+            <object name="anim_slide_2_reload" enabled="true" />
+            <object name="anim_slide_3_reload" enabled="true" />
+        </animation_group>
+    </animations>
+    <graphics>
+        <object name="g_mechanism_first_low"	enabled="true" />
+        <object name="g_mechanism_second_low"	enabled="true" />
+        <object name="g_mechanism_third_low"	enabled="true" />
+        <object name="g_sidesmall_low"			enabled="true" />
+        <object name="g_underpart"				enabled="true" />
+    </graphics>
+</dynamic_object>

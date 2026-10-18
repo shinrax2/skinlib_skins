@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_wpn_fps_lmg_m1918_body_standard" materials="units/vanilla/weapons/wpn_fps_lmg_m1918_pts/wpn_fps_lmg_m1918_body_standard_bart" />
+    <graphics>
+        <object name="g_body" enabled="true" />
+    </graphics>
+</dynamic_object>

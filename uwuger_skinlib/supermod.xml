@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<mod name="uwuger (SkinLib)"
+      description="sherbetjutsus uwuger ported to SkinLib"
+      author="shinrax2 and sherbetjutsu"
+      version="1"
+>
+
+	<updates>
+		<update provider="modworkshop" identifier="59571"/>
+	</updates>
+
+    <dependencies>
+		<dependency name="SkinLib" download_url="https://api.modworkshop.net/mods/55400/download" />
+	</dependencies>
+
+    <localization>
+        <loc file="english.json" language="english" />
+    </localization>
+
+    <hooks>
+        <pre hook_id="lib/setups/setup" script_path="core.lua" />
+    </hooks>
+
+    <assets load="startup">
+        <file path="assets/textures/body_addons_uwuger_df.texture" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/textures/body_addons_uwuger_df.texture"/>
+        <file path="assets/textures/body_addons_uwuger_gsm.texture" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/textures/body_addons_uwuger_gsm.texture"/>
+        <file path="assets/textures/body_uwuger_df.texture" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/textures/body_uwuger_df.texture"/>
+        <file path="assets/textures/body_uwuger_gsm.texture" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/textures/body_uwuger_gsm.texture"/>
+
+        <file path="assets/georg_parts_uwuger_fps.material_config" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/georg_parts_uwuger_fps.material_config"/>
+
+        <file path="assets/barrel_long_uwuger_fps.cooked_physics" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/barrel_long_uwuger_fps.cooked_physics"/>
+        <file path="assets/barrel_long_uwuger_fps.model" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/barrel_long_uwuger_fps.model"/>
+        <file path="assets/barrel_long_uwuger_fps.object" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/barrel_long_uwuger_fps.object"/>
+        <file path="assets/barrel_long_uwuger_fps.unit" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/barrel_long_uwuger_fps.unit"/>
+
+        <file path="assets/barrel_short_uwuger_fps.cooked_physics" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/barrel_short_uwuger_fps.cooked_physics"/>
+        <file path="assets/barrel_short_uwuger_fps.model" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/barrel_short_uwuger_fps.model"/>
+        <file path="assets/barrel_short_uwuger_fps.object" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/barrel_short_uwuger_fps.object"/>
+        <file path="assets/barrel_short_uwuger_fps.unit" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/barrel_short_uwuger_fps.unit"/>
+
+        <file path="assets/slide_default_uwuger_fps.cooked_physics" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/slide_default_uwuger_fps.cooked_physics"/>
+        <file path="assets/slide_default_uwuger_fps.model" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/slide_default_uwuger_fps.model"/>
+        <file path="assets/slide_default_uwuger_fps.object" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/slide_default_uwuger_fps.object"/>
+        <file path="assets/slide_default_uwuger_fps.unit" name="units/upd_georg/weapons/wpn_fps_pis_georg/parts/slide_default_uwuger_fps.unit"/>
+    </assets>
+</mod>

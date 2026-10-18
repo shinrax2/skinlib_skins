@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel materials="units/upd_georg/weapons/wpn_fps_pis_georg/parts/georg_parts_uwuger_fps" orientation_object="rp_barrel" />
+    <graphics>
+        <object name="g_barrel_long" enabled="true" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<unit type="wpn" slot="1">
+    <object file="units/upd_georg/weapons/wpn_fps_pis_georg/parts/slide_default_uwuger_fps" />
+    <extensions>
+        <extension name="unit_data" class="ScriptUnitData" />
+    </extensions>
+</unit>

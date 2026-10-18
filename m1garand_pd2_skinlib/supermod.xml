@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<mod
+    name="M1 Garand PD2 Skinlib"
+    description=""
+    author="shinrax2"
+    version="0.1"
+    contact=""
+    disable_safe_mode="true"
+    priority="111"
+>
+    <hooks>
+        <pre hook_id="lib/setups/setup" script_path="core.lua" />
+    </hooks>
+
+    <updates>
+		<update provider="modworkshop" identifier="59111"/>
+	</updates>
+
+    <dependencies>
+		<dependency name="SkinLib" download_url="https://api.modworkshop.net/mods/55400/download" />
+	</dependencies>
+
+    <localization default="english">
+		<loc file="english.json" language="english" />
+	</localization>
+
+    <assets load="startup">
+        <file path="aru_prop_ching_rifle_skin_a_df.texture" name="units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_a_df.texture" />
+
+        <file path="aru_prop_ching_rifle_skin_b_df.texture" name="units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_b_df.texture" />
+
+        <file path="aru_prop_ching_rifle_skin_c_df.texture" name="units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_c_df.texture" />
+        <file path="aru_prop_ching_rifle_skin_c_nm.texture" name="units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_c_nm.texture" />
+    </assets>
+</mod>

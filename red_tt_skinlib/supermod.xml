@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<mod name="Red TT-33"
+      description="Psyhowithdrills Red TT-33 as a SkinLib mod"
+      author="shinrax2 and Psyhowithdrill"
+      version="1"
+>
+
+    <!--
+    Uncomment this and add your modworkshop mod identifier to enable auto-updates
+	<updates>
+		<update provider="modworkshop" identifier=""/>
+	</updates>
+    -->
+
+    <dependencies>
+		<dependency name="SkinLib" download_url="https://api.modworkshop.net/mods/55400/download" />
+	</dependencies>
+
+    <localization>
+        <loc file="english.json" language="english" />
+    </localization>
+
+    <hooks>
+        <pre hook_id="lib/setups/setup" script_path="core.lua" />
+    </hooks>
+
+    <assets load="startup">
+        <file path="wpn_fps_pis_tt33_red_df.texture" name="units/upd_001/weapons/wpn_fps_pis_tt33_pts/textures/wpn_fps_pis_tt33_red_df.texture" />
+    </assets>
+</mod>
