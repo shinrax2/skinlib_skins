@@ -3,7 +3,7 @@
     name="M1Garbine (SkinLib)"
     description=""
     author="shinrax2 and sherbetjutsu"
-    version="2"
+    version="3"
     disable_safe_mode="true"
 >
     <hooks>

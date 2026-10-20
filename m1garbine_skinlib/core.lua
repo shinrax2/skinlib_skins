@@ -13,12 +13,15 @@ Hooks:Add("SkinLibCollectData", "M1Garbine.SkinLibCollectData",
 
     local b_short = SL_Part:new("wpn_fps_ass_carbine_b_short_garbine", "wpn_fps_ass_carbine", "wpn_fps_ass_carbine_b_short")
         :add_unit("units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_b_short_garbine")
+        :add_third_unit("units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_b_short_garbine")
 
     local b_medium = SL_Part:new("wpn_fps_ass_carbine_b_medium_garbine", "wpn_fps_ass_carbine", "wpn_fps_ass_carbine_b_medium")
         :add_unit("units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_b_medium_garbine")
+        :add_third_unit("units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_b_medium_garbine")
 
     local b_standard = SL_Part:new("wpn_fps_ass_carbine_b_standard_garbine", "wpn_fps_ass_carbine", "wpn_fps_ass_carbine_b_standard")
         :add_unit("units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_b_standard_garbine")
+        :add_third_unit("units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_b_standard_garbine")
 
     local body_standard = SL_Part:new("wpn_fps_ass_carbine_body_standard_garbine", "wpn_fps_ass_carbine", "wpn_fps_ass_carbine_body_standard")
         :add_unit("units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_body_standard_garbine")
