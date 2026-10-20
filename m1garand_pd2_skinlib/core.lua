@@ -12,14 +12,15 @@ Hooks:Add("SkinLibCollectData", "M1GarandPD2.SkinLibCollectData",
             "units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/wpn_fps_ass_garand_gsm")
 
         local m_fps_c = SL_Material:new("wpn_fps_ass_garand",
-            "units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_c_nm",
-            "units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_c_df")
+            "units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/wpn_fps_ass_garand_nm",
+            "units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_c_df",
+            "units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/wpn_fps_ass_garand_gsm")
 
         -- skin aru_a
         self.RegisterSkin(
             SL_Skin:new("sx2_ws_garand_a", "garand")
                 :set_name_id("sx2_ws_garand_a")
-                :set_gold_price(1)
+                :set_gold_price(50)
                 :set_droppable(true)
                 :set_rarity(LootDropTweakData.RARITY_COMMON)
                 :add_parts({
@@ -46,7 +47,7 @@ Hooks:Add("SkinLibCollectData", "M1GarandPD2.SkinLibCollectData",
         self.RegisterSkin(
             SL_Skin:new("sx2_ws_garand_b", "garand")
                 :set_name_id("sx2_ws_garand_b")
-                :set_gold_price(1)
+                :set_gold_price(100)
                 :set_droppable(true)
                 :set_rarity(LootDropTweakData.RARITY_UNCOMMON)
                 :add_parts({
@@ -73,7 +74,7 @@ Hooks:Add("SkinLibCollectData", "M1GarandPD2.SkinLibCollectData",
         self.RegisterSkin(
             SL_Skin:new("sx2_ws_garand_c", "garand")
                 :set_name_id("sx2_ws_garand_c")
-                :set_gold_price(1)
+                :set_gold_price(150)
                 :set_droppable(true)
                 :set_rarity(LootDropTweakData.RARITY_RARE)
                 :add_parts({

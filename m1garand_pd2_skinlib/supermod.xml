@@ -3,7 +3,7 @@
     name="M1 Garand PD2 Skinlib"
     description=""
     author="shinrax2"
-    version="0.1"
+    version="1"
     contact=""
     disable_safe_mode="true"
     priority="111"
@@ -25,11 +25,10 @@
 	</localization>
 
     <assets load="startup">
-        <file path="aru_prop_ching_rifle_skin_a_df.texture" name="units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_a_df.texture" />
+        <file path="pd_garand_a_df.texture" name="units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_a_df.texture" />
 
-        <file path="aru_prop_ching_rifle_skin_b_df.texture" name="units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_b_df.texture" />
+        <file path="pd_garand_b_df.texture" name="units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_b_df.texture" />
 
-        <file path="aru_prop_ching_rifle_skin_c_df.texture" name="units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_c_df.texture" />
-        <file path="aru_prop_ching_rifle_skin_c_nm.texture" name="units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_c_nm.texture" />
+        <file path="pd_garand_c_df.texture" name="units/vanilla/weapons/wpn_fps_ass_garand_pts/textures/aru_prop_ching_rifle_skin_c_df.texture" />
     </assets>
 </mod>
